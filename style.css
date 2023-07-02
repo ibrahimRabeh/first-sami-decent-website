@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    height: 1500px;
+    width: 400px;
+}
+
+.first-sec{
+    height: 500px;
+    flex:1;
+    padding: 0px 200px 0px 200px;
+    background-color: #1F2937;
+    
+}
+.first-sec .header{
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1;
+    margin-bottom: 100px;
+
+  
+}
+a{
+    color: #F9FAF8;
+   padding: 10px;
+     flex:1;
+     text-decoration:none;
+}
+
+.logo{
+    flex:1;
+}
+.top-page{
+    display: flex;
+    flex:1;
+
+}
+.head-info{
+    
+
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+    flex:1;
+}
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb83;
+}
+.head-image{
+
+    -ms-flex-align: center;
+    width: 1px;
+    height: 300px;
+   padding-bottom: 100px;
+   
+   
+    flex: 1 50px;
+}
+button{
+    background-color: #3882F6;
+    font-size: 16px;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    
+}
+.middle-page{
+    
+    padding: 0px 200px 0px 200px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    flex:1;
+
+
+}
+.mangas{
+    display: flex;
+    margin-top: 50px;
+}
+.one-punchMan{
+
+    margin: 50px;
+    flex: 1;
+    font-size: 18px;
+    color: #30303083;
+}
+.berserk{
+    margin: 50px;
+    flex: 1;
+    font-size: 18px;
+    color: #30303083;
+} 
+
+.one-piece{
+    margin: 50px;
+    flex: 1;
+    font-size: 18px;
+    color: #30303083;
+} .jojo
+{
+    margin: 50px;
+    flex: 1;
+    font-size: 18px;
+    color: #30303083;
+} 
+img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.quote-sec{
+    height: 500px;
+    padding: 100px 300px 0px 300px;
+   
+    background-color: #7f818562 ;
+    font-size: 36px;
+    color: #1F2937;
+    flex:1;
+}
+.quote-sec > p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.last-sec{
+    margin: 200px 200px 300px 200px;
+    padding: 100px 200px 0px 200px;
+    background-color: #3882F6;
+    font-size: 24px ;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-radius: 25px;
+    display: flex;
+}
+.last-sec >button{
+   height: 50px;
+        background-color: #3882F6;
+        font-size: 16px;
+        color: white;
+        font-weight: 900;
+        border-radius: 15px;
+        flex:1;
+        
+        
+}
+.last-sec > p{
+   
+    color: #dce5f4;
+    font-weight: 100;
+    flex:2;
+    text-align: left;
+    
+}
+.copy-right{
+    height: 70px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #dce5f4;
+    font-size: 24px;
+}
